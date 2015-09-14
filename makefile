@@ -12,3 +12,8 @@ print_arrays.o: print_arrays.c print_arrays.h
 clean: 
 	rm -f *.o
 	rm -f at
+
+docs:
+	doxygen
+	chmod 744 html/
+	cp -rp html/ /publi_html/cs2303assig2/
