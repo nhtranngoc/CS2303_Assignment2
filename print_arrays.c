@@ -15,7 +15,7 @@
 void print_int_array(int a[], int num_elements) {
   int i; // Loop counter
 
-  for (i = 0; i <= num_elements; i++) {
+  for (i = 0; i < num_elements; i++) {
     printf("%d\n", a[i]);
   }
 }

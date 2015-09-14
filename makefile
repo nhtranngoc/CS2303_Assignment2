@@ -8,3 +8,7 @@ at.o: at.c print_arrays.h
 
 print_arrays.o: print_arrays.c print_arrays.h
 	gcc --std=gnu89 -c print_arrays.c
+
+clean: 
+	rm -f *.o
+	rm -f at
