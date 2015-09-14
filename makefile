@@ -21,5 +21,5 @@ clean:
 
 docs:
 	doxygen
-	chmod 744 html/
-	cp -rp html/ /publi_html/cs2303assig2/
+	chmod 744 html/*
+	cp -rp html/* ~/public_html/cs2303assig2/
