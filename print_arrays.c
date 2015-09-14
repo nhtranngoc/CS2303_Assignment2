@@ -20,7 +20,29 @@ void print_int_array(int a[], int num_elements) {
   }
 }
 
+/** Print an array of doubles, one per line.
+    @param a Array of type double to print
+    @param num_elements Number of elements in the array
+*/
+
 void print_double_array(double a[], int num_elements) {
-	// TODO: Fill in with code.
+	int i; // Loop counter
+	for (i = 0; i < num_elements; i++) {
+		printf("%lf\n", a[i]);
+  }
 }
 
+/** Function for getting integer data and storing in an array
+    @param Number of parameters argc
+    @param Array of parameters argv[]
+    @param Array to be stored
+    @param Size of the array
+*/
+
+void fillArray(int argc, char argv[], int a[], int num_elements){
+	int i; // Loop counter
+  	// Fill the array with consecutive integers
+  	for (i = 0; i < argc; i++) a[i] = atoi(argv[i]);
+  	// Now print it out
+  	print_int_array(a, argc);
+}

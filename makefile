@@ -17,7 +17,7 @@ print_arrays.o: print_arrays.c print_arrays.h
 
 clean: 
 	rm -f *.o
-	rm -f at
+	rm -f at at2
 
 docs:
 	doxygen

@@ -11,14 +11,8 @@
  */
 
 int main(int argc, char *argv[]) {
-  int i; // Loop counter
-  int a[argc]; // Sample array for declaration
-
-  // Fill the array with consecutive integers
-  for (i = 0; i < argc; i++) a[i] = atoi(argv[i]);
-
-  // Now print it out
-  print_int_array(a, argc);
-
-  return 0; // Success!
+	int a[argc]; // Sample array for declaration
+	fillArray(argc, argv, a, argc);
+	return 0; // Success!
 }
+

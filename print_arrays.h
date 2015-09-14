@@ -11,5 +11,6 @@
 
 void print_int_array(int a[], int size);
 void print_double_array(double a[], int size);
+void fillArray(int argc, char argv[], int a[], int num_elements){
 
 #endif
