@@ -39,10 +39,10 @@ void print_double_array(double a[], int num_elements) {
     @param Size of the array
 */
 
-void fillArray(int argc, char argv[], int a[], int num_elements){
+void fillArray(int argc, char *argv[], int a[], int num_elements){
 	int i; // Loop counter
   	// Fill the array with consecutive integers
-  	for (i = 0; i < argc; i++) a[i] = atoi(argv[i]);
-  	// Now print it out
-  	print_int_array(a, argc);
+  	for (i = 0; i < num_elements; i++) a[i] = atoi(argv[i+1]);
+	// Now print it out
+	print_int_array(a, num_elements);
 }

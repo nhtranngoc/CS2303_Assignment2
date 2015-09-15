@@ -11,8 +11,7 @@
  */
 
 int main(int argc, char *argv[]) {
-	int a[argc]; // Sample array for declaration
-	fillArray(argc, argv, a, argc);
+	int a[20]; // Sample array for declaration
+	fillArray(argc, argv, a, argc-1);
 	return 0; // Success!
 }
-
