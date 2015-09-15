@@ -24,3 +24,24 @@ void bubble_sort(int a[], int num_elements) {
   printf("\nSorted array is\n");
   print_int_array(a, num_elements);
 }
+
+/** Function to generate an array of random numbers from 0 to a maximum range.
+*  @param a[] The array passed in to be generated.
+*  @param max Maximum of random range.
+*  @param num_elements Size of the array
+*/ 
+void rand_array_generator(int a[], int max, int num_elements){
+  int i;
+  for (i=0; i< num_elements; i++){
+    a[i] = rand_int_generator(max);
+  }
+}
+
+
+/** Function to generate a random number from 0 to a maximum range.
+*  @param max Maximum of random range.
+   @return generated random number of type int.
+*/
+int rand_int_generator(int max){
+  return (rand() % (max +1));
+}

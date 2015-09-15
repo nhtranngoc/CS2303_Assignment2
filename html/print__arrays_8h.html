@@ -24,8 +24,59 @@
 
 <tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__arrays_8h.html#2c63d62a01ac25bf7c4fa67be16bf004">print_double_array</a> (double a[], int size)</td></tr>
 
+<tr><td class="memItemLeft" nowrap align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="print__arrays_8h.html#2a814cdfc58694c0558c1b809df1b766">fillArray</a> (int argc, char *argv[], int a[], int num_elements)</td></tr>
+
 </table>
 <hr><h2>Function Documentation</h2>
+<a class="anchor" name="2a814cdfc58694c0558c1b809df1b766"></a><!-- doxytag: member="print_arrays.h::fillArray" ref="2a814cdfc58694c0558c1b809df1b766" args="(int argc, char *argv[], int a[], int num_elements)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void fillArray           </td>
+          <td>(</td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&nbsp;</td>
+          <td class="paramname"> <em>argv</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>a</em>[], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&nbsp;</td>
+          <td class="paramname"> <em>num_elements</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td width="100%"></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>
+Function for getting integer data and storing in an array <dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>Number</em>&nbsp;</td><td>of parameters argc </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>Array</em>&nbsp;</td><td>of parameters argv[] </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>Array</em>&nbsp;</td><td>to be stored </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>Size</em>&nbsp;</td><td>of the array </td></tr>
+  </table>
+</dl>
+
+</div>
+</div><p>
 <a class="anchor" name="2c63d62a01ac25bf7c4fa67be16bf004"></a><!-- doxytag: member="print_arrays.h::print_double_array" ref="2c63d62a01ac25bf7c4fa67be16bf004" args="(double a[], int size)" -->
 <div class="memitem">
 <div class="memproto">
@@ -40,7 +91,7 @@
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">int&nbsp;</td>
-          <td class="paramname"> <em>size</em></td><td>&nbsp;</td>
+          <td class="paramname"> <em>num_elements</em></td><td>&nbsp;</td>
         </tr>
         <tr>
           <td></td>
@@ -52,6 +103,12 @@
 <div class="memdoc">
 
 <p>
+Print an array of doubles, one per line. <dl compact><dt><b>Parameters:</b></dt><dd>
+  <table border="0" cellspacing="2" cellpadding="0">
+    <tr><td valign="top"></td><td valign="top"><em>a</em>&nbsp;</td><td>Array of type double to print </td></tr>
+    <tr><td valign="top"></td><td valign="top"><em>num_elements</em>&nbsp;</td><td>Number of elements in the array </td></tr>
+  </table>
+</dl>
 
 </div>
 </div><p>
@@ -90,7 +147,7 @@ Print an array of ints, one per line. <dl compact><dt><b>Parameters:</b></dt><dd
 
 </div>
 </div><p>
-<hr size="1"><address style="align: right;"><small>Generated on 14 Sep 2015 for lab2 by&nbsp;
+<hr size="1"><address style="align: right;"><small>Generated on 15 Sep 2015 for lab2 by&nbsp;
 <a href="http://www.doxygen.org/index.html">
 <img src="doxygen.png" alt="doxygen" align="middle" border="0"></a> 1.4.7 </small></address>
 </body>
