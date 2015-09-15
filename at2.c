@@ -1,13 +1,13 @@
-/** file at.c
- * @author Mike Ciaraldi
+/** file at2.c
+ * @author nhtranngoc
  *
- * Program to demonstrate arrays in C.
+ * Program to print and sort array from command line.
  */
 
 #include "print_arrays.h"
 #include "sort.h"
 
-/** Main program for demonstrating arrays. It fills them and prints them.
+/** Main program that fills an array from input argument, prints them and sort them.
  * @return 0, Indicating success.
  */
 
